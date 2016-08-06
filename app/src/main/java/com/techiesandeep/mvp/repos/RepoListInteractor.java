@@ -6,6 +6,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.techiesandeep.mvp.GithubService;
 import com.techiesandeep.mvp.models.GitRepository;
+import com.techiesandeep.mvp.utils.StringConstants;
 
 import java.util.List;
 import retrofit2.Call;
@@ -20,7 +21,6 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RepoListInteractor implements Callback<List<GitRepository>> {
     private static final String TAG = RepoListInteractor.class.getSimpleName();
 
-    private static final String ENDPOINT = "http://api.github.com/";
     private OnRepoInteractorFinishedListener listener;
 
     public RepoListInteractor(OnRepoInteractorFinishedListener listener) {
@@ -29,10 +29,11 @@ public class RepoListInteractor implements Callback<List<GitRepository>> {
 
     private GithubService initRestAdapter(){
         Gson gson = new GsonBuilder()
-                .setDateFormat("yyyy-MM-dd'T'HH:mm:ssZ")
+                .setDateFormat(StringConstants.TIMEFORMAT)
                 .create();
+
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl(ENDPOINT)
+                .baseUrl(StringConstants.ENDPOINT)
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
 

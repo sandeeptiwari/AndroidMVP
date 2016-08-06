@@ -2,17 +2,21 @@ package com.techiesandeep.mvp.view.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.techiesandeep.mvp.R;
 import com.techiesandeep.mvp.models.GitRepository;
 import com.techiesandeep.mvp.repos.IRepoListView;
-import com.techiesandeep.mvp.repos.RepoAdapter;
 import com.techiesandeep.mvp.repos.RepoListPresenter;
+import com.techiesandeep.mvp.repos.RepositoryAdapter;
+import com.techiesandeep.mvp.utils.DividerItemDecoration;
 
 import java.util.List;
 
@@ -27,8 +31,11 @@ public class RepoListFragment extends Fragment implements IRepoListView {
 
     public RepoListFragment() {}
 
-    @BindView(R.id.fragment_repo_list_view)
-    ListView listView;
+    @BindView(R.id.rvContacts)
+    RecyclerView recyclerView;
+
+    @BindView(R.id.progressBar_splash)
+    ProgressBar progressBar;
 
     private RepoListPresenter presenter;
 
@@ -48,12 +55,20 @@ public class RepoListFragment extends Fragment implements IRepoListView {
     @Override
     public void onResume() {
         super.onResume();
+        progressBar.setVisibility(View.VISIBLE);
         presenter.loadCommits("sandeeptiwari");
     }
 
     @Override
     public void onReposLoadedSuccess(List<GitRepository> list, Response response) {
-        listView.setAdapter(new RepoAdapter(getActivity(), list));
+        RepositoryAdapter adapter = new RepositoryAdapter(getActivity(), list);
+        RecyclerView.ItemDecoration itemDecoration = new
+                DividerItemDecoration(getActivity(), R.drawable.divider);
+        recyclerView.addItemDecoration(itemDecoration);
+        // Set layout manager to position the items
+        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+        recyclerView.setAdapter(adapter);
+        progressBar.setVisibility(View.GONE);
     }
 
     @Override
