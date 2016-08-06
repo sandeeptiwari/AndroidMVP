@@ -6,7 +6,7 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "io.jpotts18.android_mvp"
+        applicationId "com.techiesandeep.mvp"
         minSdkVersion 16
         targetSdkVersion 22
         versionCode 1

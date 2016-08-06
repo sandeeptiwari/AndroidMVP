@@ -1,3 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="D:\practice\mvp\AndroidMVP\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="D:\practice\mvp\AndroidMVP\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.0.0_8b6ea9ae58a1649523e5f94e76d42336290b7a81\classes.dex" />
+    </item>
+    <item
+        jar="D:\practice\mvp\AndroidMVP\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="D:\practice\mvp\AndroidMVP\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.0.0_2314c4503450787f1f6ae6efe4038793cddd020f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\gur38618\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="D:\practice\mvp\AndroidMVP\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_315fb72355c507dcf699d70eb1d535673de49847\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\gur38618\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="D:\practice\mvp\AndroidMVP\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_9812480facd6079f8c02c56ca44f5228b941d18f\classes.dex" />
+    </item>
+    <item
+        jar="D:\practice\mvp\AndroidMVP\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="56bfe333bb581390ce2710934a5ac7c457a3cae8">
+        <dex dex="D:\practice\mvp\AndroidMVP\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8286b6d8e35bdd389f7702d9ce56f9cf19bd48cd\classes.dex" />
+    </item>
+    <item
+        jar="D:\practice\mvp\AndroidMVP\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="3484e0fbd4075f7a43043734c05d14eee851183f">
+        <dex dex="D:\practice\mvp\AndroidMVP\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_173b623bed9c586d19e28c6708d88e7ca81384a4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\gur38618\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\24.0.0\2943c74db6d4346ab8c6531adac91fa05c137c40\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="D:\practice\mvp\AndroidMVP\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_b33120ce510f7d633e5a0dd9296de0651533976c\classes.dex" />
+    </item>
+    <item
+        jar="D:\practice\mvp\AndroidMVP\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="db845b5a27edd9462518d02f9906aa19dd4b9718">
+        <dex dex="D:\practice\mvp\AndroidMVP\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton-butterknife-8.2.0_e4c8be91d1389ac8a4f11e07c788eb853ec83d23\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\gur38618\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="D:\practice\mvp\AndroidMVP\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_c0e37405096fd12d5080de900a1138dee5832b38\classes.dex" />
+    </item>
+    <item
+        jar="D:\practice\mvp\AndroidMVP\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="D:\practice\mvp\AndroidMVP\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.0.0_ca19acd56e9aaeb6c72c6759ea7f2106b8aabd9a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\gur38618\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.2.0\54af7c495f6c92e0eaba1e839bc03b85ff61fddb\butterknife-annotations-8.2.0.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="54af7c495f6c92e0eaba1e839bc03b85ff61fddb">
+        <dex dex="D:\practice\mvp\AndroidMVP\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.2.0_e8b20eb13a8762c58043e9d6a1b02c56bcc565ea\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\gur38618\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="D:\practice\mvp\AndroidMVP\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_aafe1349e944b0b20accf4af10216b6eb97a88a8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\gur38618\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="D:\practice\mvp\AndroidMVP\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_01443b5746d4ee20432da6102bcffceb032cf35b\classes.dex" />
+    </item>
+
+</items>
